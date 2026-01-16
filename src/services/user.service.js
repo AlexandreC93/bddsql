@@ -12,7 +12,7 @@ class UserService {
 
     async findAll() {
         return await this.userRepo.find({
-            relations: { todos: true }
+            relations: { todos: true}
         });
     }
 

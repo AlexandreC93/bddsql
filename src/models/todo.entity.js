@@ -14,6 +14,6 @@ module.exports = new EntitySchema({
             target: "User",
             joinColumn: true, // Crée la colonne userId en base
             inverseSide: "todos"
-        }
+        },
     }
 });
